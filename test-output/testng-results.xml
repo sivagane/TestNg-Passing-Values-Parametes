@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80" started-at="2020-03-21T11:44:28Z" finished-at="2020-03-21T11:44:28Z">
+    <groups>
+      <group name="regression">
+        <method signature="Sampletestng.UserRegistration()[pri:0, instance:org.sample.testng.Sampletestng@51565ec2]" name="UserRegistration" class="org.sample.testng.Sampletestng"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Sampletestng.CompanyRegistration()[pri:0, instance:org.sample.testng.Sampletestng@51565ec2]" name="CompanyRegistration" class="org.sample.testng.Sampletestng"/>
+        <method signature="Sampletestng.SampleRegistration()[pri:0, instance:org.sample.testng.Sampletestng@51565ec2]" name="SampleRegistration" class="org.sample.testng.Sampletestng"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="80" started-at="2020-03-21T11:44:28Z" finished-at="2020-03-21T11:44:28Z">
+      <class name="org.sample.testng.Sampletestng">
+        <test-method status="PASS" signature="CompanyRegistration()[pri:0, instance:org.sample.testng.Sampletestng@51565ec2]" name="CompanyRegistration" duration-ms="32" started-at="2020-03-21T11:44:28Z" finished-at="2020-03-21T11:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyRegistration -->
+        <test-method status="PASS" signature="UserRegistration()[pri:0, instance:org.sample.testng.Sampletestng@51565ec2]" name="UserRegistration" duration-ms="0" started-at="2020-03-21T11:44:28Z" finished-at="2020-03-21T11:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRegistration -->
+        <test-method status="PASS" signature="SampleRegistration()[pri:0, instance:org.sample.testng.Sampletestng@51565ec2]" name="SampleRegistration" duration-ms="0" started-at="2020-03-21T11:44:28Z" finished-at="2020-03-21T11:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SampleRegistration -->
+        <test-method status="PASS" signature="HRRegistration()[pri:0, instance:org.sample.testng.Sampletestng@51565ec2]" name="HRRegistration" duration-ms="0" depends-on-groups="regression" started-at="2020-03-21T11:44:28Z" finished-at="2020-03-21T11:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HRRegistration -->
+      </class> <!-- org.sample.testng.Sampletestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
